@@ -1,0 +1,24 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sim_1/new/Basys3Sim.v,1606842526,verilog,,,,Basys3Sim,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sim_1/new/cpusim.v,1606840210,verilog,,,,cpusim,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/ALU.v,1606837230,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/ALUControl.v,,ALU,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/ALUControl.v,1606829272,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/CPUTOP.v,,ALUControl,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/Basys3CPU.v,1606845221,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/CPUTOP.v,,Basys3CPU,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/Button_Debounce.v,1606455367,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/CPUTOP.v,,Button_Debounce;ClockDivisor,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/CPUTOP.v,1606841676,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/ControlUnit.v,,CPUTOP,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/ControlUnit.v,1606830518,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/DataMemory.v,,ControlUnit,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/DataMemory.v,1606875700,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/InstructionMemory.v,,DataMemory,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/HexToSeg.v,1606447490,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/InstructionMemory.v,,HexToSeg,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/InstructionMemory.v,1606832738,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/PC.v,,InstructionMemory,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/PC.v,1606406233,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/Registers.v,,PC,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/Registers.v,1606840685,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/SignExtend.v,,Registers,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/SignExtend.v,1606405005,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sim_1/new/cpusim.v,,SignExtend,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/clkDiv.v,1606844190,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/counter4.v,,clkDiv,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/counter4.v,1606453264,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/dataSelect.v,,counter4,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/dataSelect.v,1606842349,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/smg.v,,dataSelect,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/smg.v,1606454737,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/smgMux.v,,smg,,,,,,,,
+D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sources_1/new/smgMux.v,1606447872,verilog,,D:/vivadoProject/SingleCycleCpu/SingleCycleCpu.srcs/sim_1/new/Basys3Sim.v,,smgMux,,,,,,,,

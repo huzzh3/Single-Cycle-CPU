@@ -1,0 +1,122 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Nov 27 13:39:38 2020
+| Host         : DESKTOP-HSQ0OLI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Basys3CPU_control_sets_placed.rpt
+| Design       : Basys3CPU
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    58 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              68 |           40 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              58 |           15 |
+| Yes          | No                    | No                     |             384 |          233 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------+----------------------------------------+-------------------------------------+------------------+----------------+
+|                   Clock Signal                  |              Enable Signal             |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-------------------------------------------------+----------------------------------------+-------------------------------------+------------------+----------------+
+|  uButton_Debounce/t_20ms/clkout                 |                                        |                                     |                1 |              2 |
+|  usmg/uclkDiv/CLK                               |                                        |                                     |                1 |              2 |
+|  basys3Clk_IBUF_BUFG                            |                                        |                                     |                2 |              2 |
+|  uCPUTOP/uControlUnit/E[0]                      |                                        |                                     |                3 |              3 |
+|  uCPUTOP/uControlUnit/RegDst_inferred__0/i__n_1 |                                        |                                     |                4 |              7 |
+|  next_signal_BUFG                               |                                        |                                     |                2 |              7 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[8][7]_0[0]  |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[9][7]_0[0]  |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[13][7][0]   |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[0][7]_0[0]  |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[15][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[10][7]_0[0] |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[12][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[11][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/E[0]                      |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[14][7][0]   |                                     |                7 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[16][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[19][7][0]   |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[1][7]_0[0]  |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[17][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[22][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[25][7][0]   |                                     |                3 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[28][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[23][7][0]   |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[24][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[27][7][0]   |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[21][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[26][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[29][7][0]   |                                     |                7 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[2][7]_0[0]  |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[18][7]_0[0] |                                     |                3 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[20][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[35][7][0]   |                                     |                8 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[40][7][0]   |                                     |                2 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[38][7][0]   |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[46][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[5][7]_0[0]  |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[34][7]_0[0] |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[3][7][0]    |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[44][7][0]   |                                     |                1 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[47][7][0]   |                                     |                7 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[30][7][0]   |                                     |                6 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[4][7][0]    |                                     |                2 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[32][7]_0[0] |                                     |                3 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[41][7][0]   |                                     |                2 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[45][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[33][7]_0[0] |                                     |                7 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[36][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[42][7][0]   |                                     |                3 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[43][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[37][7][0]   |                                     |                5 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[39][7][0]   |                                     |                4 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[6][7]_0[0]  |                                     |                7 |              8 |
+|  next_signal_BUFG                               | uCPUTOP/uALU/memoryRAM_reg[7][7][0]    |                                     |                8 |              8 |
+|  basys3Clk_IBUF_BUFG                            |                                        | usmg/uclkDiv/div_counter[0]_i_1_n_1 |                7 |             26 |
+|  basys3Clk_IBUF_BUFG                            |                                        | uButton_Debounce/t_20ms/clear       |                8 |             32 |
+|  n_0_1174_BUFG                                  |                                        |                                     |               27 |             45 |
+|  next_signal_BUFG                               | uCPUTOP/uPC/p_0_in                     |                                     |               12 |             96 |
++-------------------------------------------------+----------------------------------------+-------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     3 |
+| 3      |                     1 |
+| 7      |                     2 |
+| 8      |                    48 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+
